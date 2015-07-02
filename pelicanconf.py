@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joshua R. Rodgers'
 SITENAME = 'The Enginerd'
-SITEURL = '//mr-byte.github.io/blog'
+SITEURL = '//blog.theenginerd.com'
 
 GITHUB_URL = 'http://github.com/mr-byte/blog'
 
@@ -27,3 +27,6 @@ CATEGORY_URL = 'categories/{slug}/'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
 
 DEFAULT_PAGINATION = 10
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
